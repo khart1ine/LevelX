@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 1024
   m_ReflectionBounces: 4
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -57,14 +57,15 @@ LightmapSettings:
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 0.5
-    m_BakeResolution: 20
-    m_AtlasSize: 512
+    m_BakeResolution: 40
+    m_AtlasSize: 4096
     m_AO: 0
     m_AOMaxDistance: 0.7
     m_CompAOExponent: 0.1
     m_CompAOExponentDirect: 0
     m_Padding: 4
-    m_LightmapParameters: {fileID: 0}
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
     m_FinalGather: 0
@@ -74,9 +75,9 @@ LightmapSettings:
     m_MixedBakeMode: 0
     m_BakeBackend: 1
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 32
-    m_PVRSampleCount: 500
-    m_PVRBounces: 3
+    m_PVRDirectSampleCount: 128
+    m_PVRSampleCount: 1024
+    m_PVRBounces: 4
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
@@ -37577,7 +37578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4742674849386404, guid: 0c246ec982080f74b9f5776ab0723cc5, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4.84
+      value: 5.136
       objectReference: {fileID: 0}
     - target: {fileID: 4742674849386404, guid: 0c246ec982080f74b9f5776ab0723cc5, type: 2}
       propertyPath: m_LocalPosition.z
@@ -58339,7 +58340,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4337962590614978, guid: ec4f3061238f85b4fb5572e769c249cd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.469
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 4337962590614978, guid: ec4f3061238f85b4fb5572e769c249cd, type: 2}
       propertyPath: m_LocalPosition.y

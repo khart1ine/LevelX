@@ -42,7 +42,7 @@ MonoBehaviour:
   ambientOcclusion:
     m_Enabled: 1
     m_Settings:
-      intensity: 1
+      intensity: 0.3
       radius: 0.3
       sampleCount: 16
       downsampling: 1
@@ -55,14 +55,14 @@ MonoBehaviour:
       reflection:
         blendType: 0
         reflectionQuality: 0
-        maxDistance: 60
+        maxDistance: 106
         iterationCount: 230
         stepSize: 3
         widthModifier: 1.6
         reflectionBlur: 6.82
         reflectBackfaces: 0
       intensity:
-        reflectionMultiplier: 1.29
+        reflectionMultiplier: 1.01
         fadeDistance: 166
         fresnelFade: 1
         fresnelFadePower: 0.5
@@ -120,7 +120,7 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 3.71
+        postExposure: 3.01
         temperature: 0
         tint: 0
         hueShift: 0
