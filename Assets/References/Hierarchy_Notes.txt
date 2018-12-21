@@ -1,0 +1,8 @@
+Hierarchy
+
+Empty Objects -->
+- Geometry
+- Camera bounds
+- Collision 
+Player (not in an empty object)
+Gravity Controller (not in an empty object)

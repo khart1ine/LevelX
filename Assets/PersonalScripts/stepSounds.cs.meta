@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6daabaef4771f9e4b8ac023d1ca7236f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - step: {fileID: 8300000, guid: 7cb75ffbebdf9714bb38454e907e0f5d, type: 3}
+  - run: {fileID: 8300000, guid: 7cb75ffbebdf9714bb38454e907e0f5d, type: 3}
+  - land: {fileID: 8300000, guid: 7cb75ffbebdf9714bb38454e907e0f5d, type: 3}
+  - death: {fileID: 8300000, guid: 7088d34dbcc27d349b0cdac060ea0738, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
